@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анимация</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image:
+                url("https://img1.picmix.com/output/stamp/normal/4/7/4/2/1292474_9e48c.gif"),
+                url("https://upload.wikimedia.org/wikipedia/ru/6/6b/%D0%9B%D0%B8%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BB%D0%B5%D1%81_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9_%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%BD%D1%8B.jpg");
+
+            background-size: cover, cover;
+            background-position: center, center;
+            background-repeat: no-repeat, no-repeat;
+
+            overflow: hidden;
+        }
+
+        .wave-line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            transform: translateY(-50%);
+        }
+
+        .fly {
+            position: absolute;
+            left: 10%;
+            top: 35%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+        }
+
+        .fly3 {
+            position: absolute;
+            left: 8%;
+            top: 35%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+        }
+
+        .ob1 {
+            position: absolute;
+            left: 40%;
+            top: 45%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+        }
+
+
+        .ob2 {
+            position: absolute;
+            left: 80%;
+            top: 45%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+        }
+
+        .ob3 {
+            position: absolute;
+            left: 60%;
+            top: 45%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+        }
+
+
+        svg {
+            width: 100%;
+            height: 150px;
+        }
+
+        path {
+            fill: none;
+            stroke: rgb(125, 127, 206);
+            stroke-width: 5;
+        }
+
+        .fly {
+            width: 10%;
+            height: 150px;
+
+        }
+
+        .fly3 {
+            width: 10%;
+            height: 150px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wave-line">
+        <img class="fly" src="https://i.pinimg.com/originals/7c/45/4a/7c454ac9562e2bd90a908bafe538ddd8.gif" alt="">
+        <img class="fly3" src="https://i.pinimg.com/originals/7c/45/4a/7c454ac9562e2bd90a908bafe538ddd8.gif" alt="">
+        <img class="ob1"
+            src="https://abrakadabra.fun/uploads/posts/2022-01/1643099649_1-abrakadabra-fun-p-oblaka-v-na-prozrachnom-fone-1.png"
+            alt="">
+
+        <img class="ob2"
+            src="https://abrakadabra.fun/uploads/posts/2022-01/1643099649_1-abrakadabra-fun-p-oblaka-v-na-prozrachnom-fone-1.png"
+            alt="">
+
+        <img class="ob3"
+            src="https://abrakadabra.fun/uploads/posts/2022-01/1643099649_1-abrakadabra-fun-p-oblaka-v-na-prozrachnom-fone-1.png"
+            alt="">
+    </div>
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
